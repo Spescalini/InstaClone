@@ -1,0 +1,51 @@
+body {
+    background:rgba(231, 231, 228, 0.5);
+    max-width: 300px;
+    margin: auto;
+}
+
+#Página, .article-title, .subtitle, .post, .list {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:rgb(221, 19, 19)
+}
+
+.post-image{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.photo{
+    border-radius: 22%;
+    border: 1px solid orangered;
+    margin:auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-block-end: auto;
+}
+
+.article-title {
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.post {
+    background:rgba(189, 81, 38, 0.644);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 1%;
+}
+
+.post-content{
+    margin: 0px;
+    margin-bottom: 3px;
+    border-radius: 20%;
+    text-align: justify;
+}
